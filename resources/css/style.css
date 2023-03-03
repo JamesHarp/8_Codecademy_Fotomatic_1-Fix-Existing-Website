@@ -228,10 +228,20 @@ header .mobile {
   background-color: white;
 }
 
+.feature .content {
+  padding: 40px 0;
+}
+
 .feature .image-container {
   width: 90%;
   height: 65%;
   margin: 0 auto;
+  overflow:hidden;
+}
+
+.image-container img {
+  display: block;;
+  width: 100%;
 }
 
 .feature h2 {

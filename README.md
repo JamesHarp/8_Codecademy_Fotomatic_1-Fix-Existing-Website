@@ -10,14 +10,28 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 ## 1. Fix Broken Site
 ### Issues fixed
 - [x] No styling applied to site
-	- [x] style.css not linked to index.html
-- [x] Fix missing images
+	-  style.css linked to index.html
+- [ ] Fix missing images
 	- [x] Fix missing Instagram logo in header
+	-   incorrect path to image
 	- [x] Fix missing banner image
 		- background-image:  url("../images/banner-landingpage.jpg");
 		- background-size:  cover;
 		- background-position:  bottom;
+	- [x] Fix missing features images
+		- <img  src='./resources/images/feature-1.png  />'
+		- 	<img  src='./resources/images/feature-1.png  />' 
+		- [x] Fix features image sizing
+		- .image-container  img  {
+				display:  block;
+				width:  100%;
+				}
+		- .feature  .content  {
+				padding:  40px  0;
+		}
 - [x] Centre and pad (left) sign up call to action
 - #sign-up-cta  {
 position:  relative;
 left:  10%;
+
+
