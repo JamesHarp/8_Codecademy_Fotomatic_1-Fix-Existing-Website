@@ -7,8 +7,17 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 
 ### [Reference (Working Site)](https://content.codecademy.com/courses/freelance-1/capstone-1/solution/index.html?_gl=1*t7f2ie*_ga*MjI5MTY3NjMzLjE2NjQxNzE0MTU.*_ga_3LRZM6TM9L*MTY3NzY0OTkyOS42My4xLjE2Nzc2NTAxMDkuNTcuMC4w)
 
-## My Live Site
-
-GitHub pages link for [current commit](https://jamesharp.github.io/8.-Fotomatic/).
-
-
+## 1. Fix Broken Site
+### Issues fixed
+- [x] No styling applied to site
+	- [x] style.css not linked to index.html
+- [x] Fix missing images
+	- [x] Fix missing Instagram logo in header
+	- [x] Fix missing banner image
+		- background-image:  url("../images/banner-landingpage.jpg");
+		- background-size:  cover;
+		- background-position:  bottom;
+- [x] Centre and pad (left) sign up call to action
+- #sign-up-cta  {
+position:  relative;
+left:  10%;
