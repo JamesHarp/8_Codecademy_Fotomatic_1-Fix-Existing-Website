@@ -10,7 +10,11 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 ## 1. Fix Broken Site
 ### Issues fixed
 - [x] No styling applied to site
-	-  style.css linked to index.html
+-  style.css linked to index.html
+- [x] Fixed header not sticking above scrolling page content
+-  header  {
+z-index:  1;
+}
 - [ ] Fix missing images
 	- [x] Fix missing Instagram logo in header
 	-   incorrect path to image
