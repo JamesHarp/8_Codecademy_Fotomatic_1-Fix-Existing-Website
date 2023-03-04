@@ -116,9 +116,9 @@ header .mobile {
 #sign-up-section {
   display: flex;
   justify-content: flex-start;
-  align-items:center;
+  align-items: center;
   height: 43.5rem;
-  background-image: url("../images/banner-landingpage.jpg");
+  background-image: url('../images/banner-landingpage.jpg');
   background-size: cover;
   background-position: bottom;
 }
@@ -237,11 +237,11 @@ header .mobile {
   width: 90%;
   height: 65%;
   margin: 0 auto;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .image-container img {
-  display: block;;
+  display: block;
   width: 100%;
 }
 
@@ -351,34 +351,34 @@ header .mobile {
   background-color: #f3f3f3;
 }
 
-#quotes-section content {
+#quotes-section .content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
-  font-family: 'Palatino', serif;
+  font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
   color: #4a4a4a;
 }
 
-#quotes-section quote-citation {
+#quotes-section .quote-citation {
   height: 1.875rem;
 }
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
-    padding: 1.875rem 0.625rem;
+  #quotes-section .content {
+    padding: 1.875rem .625rem;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
@@ -402,7 +402,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (max-width: 760px) {
   footer .content {
     font-size: 0.625rem;
   }

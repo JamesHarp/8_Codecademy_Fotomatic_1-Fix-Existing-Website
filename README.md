@@ -15,7 +15,7 @@ Fotomatic is [Project #8](https://www.codecademy.com/journeys/full-stack-enginee
 -  header  {
 z-index:  1;
 }
-- [ ] Fix missing images
+- [x] Fix missing images
 	- [x] Fix missing Instagram logo in header
 	-   incorrect path to image
 	- [x] Fix missing banner image
@@ -33,9 +33,20 @@ z-index:  1;
 		- .feature  .content  {
 				padding:  40px  0;
 		}
+		- [x] Fix filters image sizing
+		- #filters-section  .images-container  {
+display:  flex;
+}
 - [x] Centre and pad (left) sign up call to action
 - #sign-up-cta  {
 position:  relative;
 left:  10%;
+- [x] Correct class selectors for quotes section
+-  #quotes-section content 
+#quotes-section quote 
+#quotes-section quote-citation
 
+- #quotes-section .content 
+#quotes-section .quote 
+#quotes-section .quote-citation
 
